@@ -12,6 +12,7 @@ i18next.init(
           apple_one: "An apple",
           apple_other: "{{count}} Apples",
           apple: "Apple",
+          message: "hello {{name}}",
         },
         login: {
           button: {
@@ -38,6 +39,7 @@ i18next.init(
           apple_one: "Uma maçã",
           apple_other: "{{count}} Maçãs",
           apple: "Maçã",
+          message: "olá {{name}}",
         },
         login: {
           button: {
@@ -81,3 +83,6 @@ console.log(i18next.t("products:light", { context: "color" }));
 console.log(i18next.t("dashboard:analytics.charts.visits"));
 
 console.log(i18next.t("apple", { lng: "de" }));
+
+//XSS
+console.log(i18next.t("message", { name: "<b>XSS</b>" }));

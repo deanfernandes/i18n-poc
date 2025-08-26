@@ -1,0 +1,9 @@
+{
+  "title": "Perfil",
+  "welcomeMessage": "Bem-vindo, {{name}}",
+  "contact": {
+    "title": "Contato",
+    "email": "Endereço de Email",
+    "phone": "Número de Telefone"
+  }
+}
