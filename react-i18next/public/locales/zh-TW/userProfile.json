@@ -1,0 +1,9 @@
+{
+  "title": "個人資料",
+  "welcomeMessage": "歡迎，{{name}}",
+  "contact": {
+    "title": "聯絡方式",
+    "email": "電子郵件",
+    "phone": "電話號碼"
+  }
+}

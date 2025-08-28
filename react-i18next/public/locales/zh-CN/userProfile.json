@@ -1,0 +1,9 @@
+{
+  "title": "个人资料",
+  "welcomeMessage": "欢迎，{{name}}",
+  "contact": {
+    "title": "联系方式",
+    "email": "电子邮箱",
+    "phone": "电话号码"
+  }
+}
